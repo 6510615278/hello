@@ -1,0 +1,19 @@
+list_a = []
+list_b = []
+vector = []
+a = input('Input: a = ').split()
+b = input('Input: b = ').split()
+
+
+if len(a) != len(b):
+    print('Output: Invalid output')
+else:
+    for x in a:
+        list_a.append(float(x))
+    for y in b:
+        list_b.append(float(y))
+    for num1, num2 in zip(list_a, list_b):
+        vector.append(num1 * num2)
+
+    total = sum(vector)
+    print('%.1f' % total)
