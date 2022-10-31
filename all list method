@@ -1,4 +1,4 @@
-list.sort() เรียงlist จากน้อยไปมาก ถ้าเป็น str จะเรียงจากค่า ASCII ปล.ระวังข้อมูลใน list หากไม่ใช่ type เดียวกันจะเกิด error
+list.sort() เรียง list จากน้อยไปมาก ถ้าเป็น str จะเรียงจากค่า ASCII ปล.ระวังข้อมูลใน list หากไม่ใช่ type เดียวกันจะเกิด error
 สามารถกำหนด list.sort(key=len) เพื่อให้ str เรียงตามความยาวค่าได้
 Ex. list = ['cn101', 'b', 'tu15']
 list.sort(key=len)
@@ -21,6 +21,7 @@ print(x)  #output = 1
 
 list.clear() สามารถเคลียร์ list ได้
 
+list.copy() copy list จากอีก list นึง
                                                         ---------------------function------------------------
 min(list)
 max(list)
