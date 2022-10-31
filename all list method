@@ -1,0 +1,27 @@
+list.sort() เรียงlist จากน้อยไปมาก ถ้าเป็น str จะเรียงจากค่า ASCII ปล.ระวังข้อมูลใน list หากไม่ใช่ type เดียวกันจะเกิด error
+สามารถกำหนด list.sort(key=len) เพื่อให้ str เรียงตามความยาวค่าได้
+Ex. list = ['cn101', 'b', 'tu15']
+list.sort(key=len)
+list = ['b', 'tu15', 'cn101']
+
+list.remove(item) นำข้อมูลที่บอกใน item ออก ปล.จะลบออกแค่ตัวเลขที่เจอ
+Ex. list1 = [1, 2, 100, 4, 5]
+list1.remove(100)
+list1 = [1, 2, 4, 5]
+
+list.reverse() กลับค่า list (ไม่เรียงค่าให้)
+Ex. list2 = [2, 4, 5, 1]
+list2.reverse()
+list2 = [1, 5, 4, 2]
+
+list.pop(index) เอาค่าใน index มาใส่ให้ตัวแปร ค่านั้นจะไม่อยู่ใน list อีก
+Ex. list3 = [1, 2, 3]
+x = list.pop(0)
+print(x)  #output = 1
+
+list.clear() สามารถเคลียร์ list ได้
+
+                                                        ---------------------function------------------------
+min(list)
+max(list)
+sum(list, ค่าเริ่มต้น)
