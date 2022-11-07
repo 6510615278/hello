@@ -21,3 +21,16 @@ output = 'cn1'
 
 'cn101'.strip('10')
 output = 'cn'
+
+'cn101'.replace('101', '202')
+'output = 'cn202'
+
+'cn101'.replace('101', '202').upper()
+output = 'CN202'
+
+'cn101'.replace('1010,'202').upper() # ถ้าไม่ตรงกันจะไม่ error
+output = 'CN101'
+
+'abaca'.split('a')
+output = ['', 'b', 'c', '']
+
