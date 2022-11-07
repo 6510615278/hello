@@ -1,0 +1,17 @@
+tuple = 1,2
+สามารถทำแบบนี้ได้
+tuple1 = tuple1+(4,)
+
+จะทำให้ tuple1 เป็น (1,2,4)
+แต่ไม่เหมือนเดิม
+id จะต่างกัน
+
+sorted(tuple1)
+list1 = sorted(tuple1)
+tuple2 = tuple(list1)
+
+หรือว่า
+tuple3 = tuple(sorted(tuple1))
+
+tuple ว่างๆ
+tuple1 = tuple()
