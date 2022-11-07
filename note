@@ -15,3 +15,9 @@ tuple3 = tuple(sorted(tuple1))
 
 tuple ว่างๆ
 tuple1 = tuple()
+
+'cn101'.strip('1').strip('0')
+output = 'cn1'
+
+'cn101'.strip('10')
+output = 'cn'
